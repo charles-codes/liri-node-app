@@ -93,13 +93,12 @@ function callBandsInTown(commandStr) {
     .then(function(response){
         for (var i = 0; i < response.data.length; i++) {
             var datetime = response.data[i].datetime;
-            var dateArray = datetime.split('T');
 
             var concerts = 
                 "-------------------------------------------------------------" +
                 "\nVenue Name: " + response.data[i].venue.name +
                 "\nVenue Location: " + response.data[i].venue.city +
-                "\nDate of the Event: " + moment(dateArray[0], "MM-DD-YYYY"); 
+                "\nDate of the Event: " + moment(datetime).format("MM-DD-YYYY"); 
         console.log(concerts);
         }
     })
