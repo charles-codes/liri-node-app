@@ -2,10 +2,12 @@ require("dotenv").config();
 
 var keys = require("./keys.js");
 
-// variables for API keys and ids //
-var spotify = new spotify(keys.spotify);
-var omdb = new omdb(keys.omdb);
-var bandsInTown = new bandsInTown(keys.bandsInTown);
+// variables for requiring node packages for each API //
+
+
+// variable for Spotify API key and ids //
+var spotify = new Spotify(keys.spotify);
+console.log(spotify);
 
 // Variables for both the command and the search query //
 var command = process.argv[2];
