@@ -50,14 +50,14 @@ function callSpotify(commandStr) {
     spotify
     .search({ type: 'track', query: commandStr })
     .then(function(response){
-        console.log(response);
         for (var i = 0; i < 5; i++) {
             var songs = 
                 "-------------------------------------------------------------" +
                 "\nArtist(s): " + response.tracks.items[i].artists[0].name +
                 "\nSong Name: " + response.tracks.items[i].name +
                 "\nPreview Link: " + response.tracks.items[i].preview_url +
-                "\nAlbum Name: " + response.tracks.items[i].album.name;
+                "\nAlbum Name: " + response.tracks.items[i].album.name +
+                "-------------------------------------------------------------";
             console.log(songs);
         }
     })
@@ -83,7 +83,6 @@ function callOMDB(commandStr) {
             "\nLanguage: " + response.data.Language +
             "\nPlot: " + response.data.Plot +
             "\nActors: " + response.data.Actors +
-
             "-------------------------------------------------------------";
 
         console.log(movies);
@@ -104,7 +103,8 @@ function callBandsInTown(commandStr) {
                 "-------------------------------------------------------------" +
                 "\nVenue Name: " + response.data[i].venue.name +
                 "\nVenue Location: " + response.data[i].venue.city +
-                "\nDate of the Event: " + moment(datetime).format("MM-DD-YYYY"); 
+                "\nDate of the Event: " + moment(datetime).format("MM-DD-YYYY") +
+                "-------------------------------------------------------------";
         console.log(concerts);
         }
     })
@@ -119,6 +119,6 @@ function callWhatItSays(commandStr) {
         if (error) {
             return console.log(error);
         }
-        callSpotify();
+        callSpotify(data);
     })
 }
