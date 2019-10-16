@@ -18,10 +18,7 @@ var spotify = new Spotify(keys.spotify);
 
 // Variables for both the command and the command string query //
 var commandType = process.argv[2];
-console.log(commandType);
-// var commandStr = process.argv[3]; //
 var commandStr = process.argv.slice(3).join(" ");
-console.log(commandStr);
 
 // Input arguments logic //
 switch(commandType) {
