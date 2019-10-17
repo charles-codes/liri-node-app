@@ -4,7 +4,7 @@ require("dotenv").config();
 // Variable for requiring keys file //
 var keys = require("./keys.js");
 
-// Variable for requiring node package to read and write files //
+// Variable for requiring read/write file capability //
 var fs = require("fs");
 
 // Variables for requiring node packages for each API //
@@ -56,6 +56,13 @@ function callSpotify(commandStr) {
                 "\nAlbum Name: " + response.tracks.items[i].album.name +
                 "-------------------------------------------------------------";
             console.log(songs);
+
+            fs.appendFile("log.txt", songs, function(err){
+                 if(err){
+                    return console.log(err);
+                 }
+                console.log("log.txt was updated.");
+            })
         }
     })
     .catch(function(err){
@@ -83,6 +90,13 @@ function callOMDB(commandStr) {
             "-------------------------------------------------------------";
 
         console.log(movies);
+
+        fs.appendFile("log.txt", movies, function(err){
+                if(err){
+                return console.log(err);
+                }
+            console.log("log.txt was updated.");
+        })
     })
     .catch(function(error){
         console.log(error);
@@ -93,29 +107,56 @@ function callOMDB(commandStr) {
 function callBandsInTown(commandStr) {
     axios.get("https://rest.bandsintown.com/artists/" + commandStr + "/events?app_id=codingbootcamp")
     .then(function(response){
+        
         for (var i = 0; i < response.data.length; i++) {
             var datetime = response.data[i].datetime;
 
             var concerts = 
                 "-------------------------------------------------------------" +
+                "\nArtist Name: " + commandStr +
                 "\nVenue Name: " + response.data[i].venue.name +
                 "\nVenue Location: " + response.data[i].venue.city +
                 "\nDate of the Event: " + moment(datetime).format("MM-DD-YYYY") +
                 "-------------------------------------------------------------";
         console.log(concerts);
+
+        fs.appendFile("log.txt", concerts, function(err){
+            if(err){
+               return console.log(err);
+            }
+           console.log("log.txt was updated.");
+        })
         }
+        
     })
     .catch(function(error){
         console.log(error);
     });
 }
 
-// Function for do this //
-function callWhatItSays(commandStr) {
+// Function for do what this says //
+function callWhatItSays() {
     fs.readFile("random.txt", "utf8", function (error, data){
         if (error) {
             return console.log(error);
         }
-        callSpotify(data);
+        else {
+            var randomArr = data.split(",");
+            
+            commandType = randomArr[0];
+            commandStr = randomArr[1];
+
+            if(commandType == 'spotify-this-song'){
+                callSpotify(commandStr);
+            }
+            if(commandType == 'movie-this'){
+                callOMDB(commandStr);
+            }
+            if(commandType == 'concert-this'){
+                callBandsInTown(commandStr);
+            }
+
+        }
+         
     })
 }
