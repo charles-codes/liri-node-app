@@ -42,7 +42,7 @@ LIRI Demonstration:
 
 At the following link you can access a video demo of the LIRI app functionality: 
 
-
+https://youtu.be/YzBMZloUUwU 
 
 LIRI Technologies:
 

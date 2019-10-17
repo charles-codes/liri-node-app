@@ -245,4 +245,100 @@ Album Name: Covers Part IV------------------------------------------------------
 Artist(s): Nineties Legends
 Song Name: I Want It That Way
 Preview Link: https://p.scdn.co/mp3-preview/8523cf42da67b41a5fce8f56c9dfd14d5ecb39a5?cid=1cfec243209d4ac6a2dda59bc5310b34
+Album Name: Musicbox--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Queen
+Song Name: Another One Bites The Dust - Remastered 2011
+Preview Link: null
+Album Name: The Game (Deluxe Remastered Version)--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Queen
+Song Name: Another One Bites The Dust - 2011 Remaster
+Preview Link: null
+Album Name: Bohemian Rhapsody (The Original Soundtrack)--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Queen
+Song Name: Another One Bites The Dust
+Preview Link: null
+Album Name: Greatest Hits--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Queen
+Song Name: Another One Bites The Dust
+Preview Link: null
+Album Name: The Game--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Genital Motors
+Song Name: Another One Bites the Dust / All Right Now
+Preview Link: https://p.scdn.co/mp3-preview/008a1f683b4aa166f2279a72aa0068090cdca981?cid=1cfec243209d4ac6a2dda59bc5310b34
+Album Name: Another One Bites All the Voodoo Dust Right Now, Child!--------------------------------------------------------------------------------------------------------------------------
+Movie Title: Jaws
+Year of Release: 1975
+IMDB Rating: 8.0
+Rotten Tomatoes Rating: 98%
+Country of Production: USA
+Language: English
+Plot: When a killer shark unleashes chaos on a beach community, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.
+Actors: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Werchter Boutique
+Venue Location: Rotselaar
+Date of the Event: 06-20-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Waldbühne Berlin
+Venue Location: Berlin
+Date of the Event: 06-24-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Roskilde Festival
+Venue Location: Roskilde
+Date of the Event: 07-01-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Oslo Sommertid
+Venue Location: Oslo
+Date of the Event: 06-26-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Open’er Festival
+Venue Location: Powiat Pucki
+Date of the Event: 07-03-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Festival de Nîmes
+Venue Location: Nimes
+Date of the Event: 07-05-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: NOS Alive
+Venue Location: Algés
+Date of the Event: 07-09-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Lover Fest West
+Venue Location: Los Angeles
+Date of the Event: 07-26-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Lover Fest West
+Venue Location: Los Angeles
+Date of the Event: 07-25-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Allianz Parque
+Venue Location: Sao Paulo
+Date of the Event: 07-18-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Lover Fest East
+Venue Location: Foxborough
+Date of the Event: 07-31-2020--------------------------------------------------------------------------------------------------------------------------
+Artist Name: taylor swift
+Venue Name: Lover Fest East
+Venue Location: Foxborough
+Date of the Event: 08-01-2020--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=1cfec243209d4ac6a2dda59bc5310b34
+Album Name: The Hits--Chapter One--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=1cfec243209d4ac6a2dda59bc5310b34
+Album Name: Millennium--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Mick Jensen
+Song Name: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=1cfec243209d4ac6a2dda59bc5310b34
+Album Name: I Want It That Way--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Anthem Lights
+Song Name: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=1cfec243209d4ac6a2dda59bc5310b34
+Album Name: Covers Part IV--------------------------------------------------------------------------------------------------------------------------
+Artist(s): Nineties Legends
+Song Name: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/8523cf42da67b41a5fce8f56c9dfd14d5ecb39a5?cid=1cfec243209d4ac6a2dda59bc5310b34
 Album Name: Musicbox-------------------------------------------------------------
